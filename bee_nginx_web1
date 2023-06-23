@@ -1,0 +1,29 @@
+
+server {
+
+        listen 12.0.10.11:5010;
+        server_tokens off;
+
+        #port redirection
+        port_in_redirect off;
+
+        #logs
+        access_log /srv/bee_mpola/web_app/v1/logs/access.log;
+        error_log /srv/bee_mpola/web_app/v1/logs/error.log;
+
+        #Document root
+        root /srv/bee_mpola/web_app/v1/app;
+
+        #Add index.php to the list if you are using PHP
+        index index.html;
+
+        #config
+        location / {
+
+                try_files $uri $uri/ /index.html =404;
+
+                }
+
+
+       
+}
