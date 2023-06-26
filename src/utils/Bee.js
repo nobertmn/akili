@@ -1,10 +1,12 @@
 let baseUrl = ''
 if (process.env.NODE_ENV === 'production') {
     // baseUrl = 'https://api.dev.mpola.co.ug/';
-    baseUrl = 'http://82.180.154.80:7786/';
+    // baseUrl = 'http://82.180.154.80:7786/';
+    baseUrl = 'https://api.dev.mpola.co.ug/';
 } else if (process.env.NODE_ENV === 'test') {
     // baseUrl = 'https://api.dev.mpola.co.ug/';
-    baseUrl = 'http://82.180.154.80:7786/';
+    // baseUrl = 'http://82.180.154.80:7786/';
+    baseUrl = 'https://api.dev.mpola.co.ug/';
 } else {
     baseUrl = "http://153.92.210.238:7786/"
     baseUrl = "http://localhost:7786/";
