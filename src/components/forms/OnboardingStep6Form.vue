@@ -7,10 +7,10 @@
         data-mdb-color="primary"
       >
         <b>*</b>
-        <a href="" style="text-decoration: underline"
-          ><b>Download the excell template</b></a
+        <a href="https://docs.google.com/spreadsheets/d/1r7NFQ_tPi9nhDD52gUGKFTkqYfCROTn7/edit?usp=sharing&ouid=105051740901182670147&rtpof=true&sd=true" style="text-decoration: underline"
+          target="_blank"><b>Download the excell template</b></a
         >, watch this
-        <a href="" style="text-decoration: underline"
+        <a href="https://youtu.be/Dgr5TSmcd5A" target="_blank" style="text-decoration: underline"
           ><b>video to guide you</b></a
         >
         on how to use the template
