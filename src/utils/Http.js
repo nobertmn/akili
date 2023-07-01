@@ -1121,6 +1121,7 @@ export default {
                     debit_account_id: formData.debitAccount.value,
                     credit_account_id: formData.creditAccount.value,
                     name: formData.name.value,
+                    short_name: formData.shortName.value,
                     useful_years: formData.usefulYears.value,
                     description: formData.description.value,
                     identifier: formData.identifier.value,
@@ -1153,6 +1154,7 @@ export default {
             var data = {
                 category: {
                     name: formData.name.value,
+                    short_name: formData.shortName.value,
                     debit_account_id: formData.debitAccount.value,
                     credit_account_id: formData.creditAccount.value,
                     useful_years: formData.usefulYears.value,

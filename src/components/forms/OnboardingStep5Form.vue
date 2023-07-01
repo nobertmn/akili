@@ -102,6 +102,15 @@
         />
 
         <TextInput
+          :id="formData.shortName.id"
+          :label="formData.shortName.label"
+          :errors="formData.shortName.errors"
+          :is-disabled="isLoading || isFormSubmitting"
+          v-model="formData.shortName.value"
+          classes="ps-0 pe-0"
+        />
+
+        <TextInput
           :id="formData.identifier.id"
           :label="formData.identifier.label"
           :tooltip="formData.identifier.tooltip"
@@ -186,6 +195,25 @@ let getFormData = function () {
           error: "Atleast 3 letters are required",
         },
       },
+    },
+    shortName: {
+      id: "onboarding-assetCategory-short-name-input",
+      label: "Short Name",
+      errors: [],
+      value: "",
+      isValid: null,
+      validations: {
+        required: "Short Name is required",
+        maxLength: {
+          value: 15,
+          error: "Cannot be more than 15 letters",
+        },
+        minLength: {
+          value: 3,
+          error: "Atleast 3 letters are required",
+        },
+      },
+      ref: "short_name"
     },
     identifier: {
       id: "onboarding-assetCategory-identifier-input",
