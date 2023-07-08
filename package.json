@@ -13,7 +13,7 @@
     "read-excel-file": "^5.5.3",
     "vue": "^3.2.41",
     "vue-good-table-next": "^0.2.1",
-    "vue-router": "^4.1.5",
+    "vue-router": "^4.2.2",
     "vue-search-select": "^3.1.0",
     "vue-simple-password-meter": "^1.1.0",
     "vue3-apexcharts": "^1.4.1",
